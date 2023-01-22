@@ -1,0 +1,21 @@
+$background: #ccc;
+
+%centered {
+    display: flex;
+    min-height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Nunito, Helvetica Neue, Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    background: #d9c2ac;
+    color: #d38d38;
+    padding: 1rem;
+    letter-spacing: 1px;
+}
