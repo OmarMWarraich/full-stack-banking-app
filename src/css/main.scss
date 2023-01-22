@@ -19,3 +19,58 @@ body {
     padding: 1rem;
     letter-spacing: 1px;
 }
+
+h1 {
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+header {
+    @extend %centered;
+    background: $background;
+    padding: 1rem;
+
+    .links {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: inherit;
+        margin-top: 3rem;
+
+        .link:link,
+        .link:visited {
+            display: inline-block;
+            text-decoration: none;
+            color: #d38d38;
+            padding: 1rem 2rem;
+            border: 1px solid #d38d38;
+            border-radius: 5px;
+            transition: all 0.2s;
+
+            &:hover,
+            &:active {
+                background: #d38d38;
+                color: #d9c2ac;
+                border-bottom: 2px solid #d9c2ac;
+            }
+        }
+    }
+}
