@@ -52,6 +52,7 @@ const Login = () => {
               placeholder="Enter email"
               value={email}
               onChange={handleInputChange}
+              required
             />
           </Form.Group>
           <Form.Group controlId="password">
@@ -62,6 +63,7 @@ const Login = () => {
               placeholder="Password"
               value={password}
               onChange={handleInputChange}
+              required
             />
           </Form.Group>
           <div className="action-items">
